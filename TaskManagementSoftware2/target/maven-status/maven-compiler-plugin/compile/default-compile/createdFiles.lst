@@ -1,0 +1,6 @@
+com\jwt\hibernate\controller\LoginServlet.class
+com\jwt\hibernate\controller\Controller.class
+com\jwt\hibernate\bean\Users.class
+com\jwt\hibernate\dao\UserDAO.class
+com\jwt\hibernate\controller\LogoutServlet.class
+com\jwt\hibernate\controller\UsersControllerServlet.class
