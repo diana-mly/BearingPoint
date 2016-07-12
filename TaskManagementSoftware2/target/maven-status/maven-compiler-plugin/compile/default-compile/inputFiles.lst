@@ -1,6 +1,6 @@
-C:\Users\Diana\workspace\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\Controller.java
-C:\Users\Diana\workspace\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\bean\Users.java
-C:\Users\Diana\workspace\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\LoginServlet.java
-C:\Users\Diana\workspace\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\UsersControllerServlet.java
-C:\Users\Diana\workspace\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\dao\UserDAO.java
-C:\Users\Diana\workspace\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\LogoutServlet.java
+C:\Users\Diana\workspace\BearingPoint\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\UsersControllerServlet.java
+C:\Users\Diana\workspace\BearingPoint\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\LoginServlet.java
+C:\Users\Diana\workspace\BearingPoint\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\bean\Users.java
+C:\Users\Diana\workspace\BearingPoint\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\Controller.java
+C:\Users\Diana\workspace\BearingPoint\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\dao\UserDAO.java
+C:\Users\Diana\workspace\BearingPoint\TaskManagementSoftware2\src\main\java\com\jwt\hibernate\controller\LogoutServlet.java

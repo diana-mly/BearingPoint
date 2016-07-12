@@ -8,11 +8,14 @@
 </head>
 <body> 
 
-<% String email = request.getParameter("email"); %>
+<% String email = (String) request.getSession().getAttribute("email"); 
+	String name = (String) request.getSession().getAttribute("name");
+%>
 
 <% if(email != null){ 
 	out.print("You are logged in as: " + email); %>
-
+<br>
+<% out.print("You are logged in as: " + name); %>
 	<form name="logoutForm" method="post" action="LogoutServlet">
     	<input type="submit" value="Logout" />
 	</form>
