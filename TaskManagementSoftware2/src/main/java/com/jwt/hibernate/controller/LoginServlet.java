@@ -28,14 +28,6 @@ public class LoginServlet extends HttpServlet {
 		//verificam sa nu fie campuri goale
 		if(!email.isEmpty() && !password.isEmpty())
 		{
-			/*
-		    //setam email si trimitem la index
-		    request.getSession().setAttribute("email", email);
-		    //redirectioneaza dupa login la lista cu proiecte
-		    response.sendRedirect("projectsList.jsp");
-		    */
-			//deci asta e orm tre ca va raspunde la ceva familiar aka ME :D
-			// :)))
 			UserDAO prayers = new UserDAO();
 			try {
 				prayers.Login(email, password);

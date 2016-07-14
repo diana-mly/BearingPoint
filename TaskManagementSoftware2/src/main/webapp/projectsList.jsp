@@ -9,19 +9,20 @@
 <body> 
 
 <% String email = (String) request.getSession().getAttribute("email"); 
-	String name = (String) request.getSession().getAttribute("name");
+	String pass = (String) request.getSession().getAttribute("pass");
 %>
 
-<% if(email != null){ 
-	out.print("You are logged in as: " + email); %>
+<% if(email != null){ %>
+	<% out.print("You are logged in as: " + email); %>
 <br>
-<% out.print("You are logged in as: " + name); %>
 	<form name="logoutForm" method="post" action="LogoutServlet">
     	<input type="submit" value="Logout" />
 	</form>
-<%
-	}
-%>
+<% } %>
+
+<% out.write("Success"); %>
+
+<a href="add.jsp"> Add Projects </a>
 
 </body>
 </html>

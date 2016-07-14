@@ -17,12 +17,13 @@
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<!--  portul de la xampp-->
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dya </property>
-		<property name="hbm2ddl.auto">validate</property>
+		<property name="hbm2ddl.auto"></property>
 
 
    <!-- List of XML mapping files -->
    
    <!--  <mapping resource="user.hibernate.xml"/> -->
    <mapping class="com.jwt.hibernate.bean.Users"/>
+   <mapping class="com.jwt.hibernate.bean.Projects"/>
 </session-factory>
 </hibernate-configuration>

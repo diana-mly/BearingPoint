@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.jwt.hibernate.bean.Projects" table="projects" lazy="false">
+        <id column="ProjectID" name="ProjectID" type="java.lang.Integer">
+        	<generator class="increment"/>
+        </id>
+        <property column="ReleaseID" name="ReleaseID" type="java.lang.Integer" />
+        <property column="ProjectName" name="ProjectName" type="java.lang.String" />
+        <property column="ProjectManager" name="ProjectManager" type="java.lang.String" />
+        <property column="ProjectDescription" name="ProjectDescription" type="java.lang.String" />
+        <property column="DateCreated" name="DateCreated" type="java.lang.String" />
+    </class>
+</hibernate-mapping>

@@ -1,6 +1,11 @@
-com\jwt\hibernate\controller\LoginServlet.class
-com\jwt\hibernate\controller\Controller.class
+com\jwt\hibernate\controller\TasksControllerServlet.class
 com\jwt\hibernate\bean\Users.class
 com\jwt\hibernate\dao\UserDAO.class
 com\jwt\hibernate\controller\LogoutServlet.class
+com\jwt\hibernate\bean\Tasks.class
 com\jwt\hibernate\controller\UsersControllerServlet.class
+com\jwt\hibernate\controller\LoginServlet.class
+com\jwt\hibernate\bean\Projects.class
+com\jwt\hibernate\dao\TaskDAO.class
+com\jwt\hibernate\dao\ProjectDAO.class
+com\jwt\hibernate\controller\ProjectsControllerServlet.class

@@ -38,4 +38,24 @@
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/LogoutServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+  	<description></description>
+  	<display-name>ProjectsControllerServlet</display-name>
+  	<servlet-name>ProjectsControllerServlet</servlet-name>
+  	<servlet-class>com.jwt.hibernate.controller.ProjectsControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ProjectsControllerServlet</servlet-name>
+  	<url-pattern>/ProjectsControllerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<description></description>
+  	<display-name>TasksControllerServlet</display-name>
+  	<servlet-name>TasksControllerServlet</servlet-name>
+  	<servlet-class>com.jwt.hibernate.controller.TasksControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TasksControllerServlet</servlet-name>
+  	<url-pattern>/TasksControllerServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

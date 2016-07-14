@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.jwt.hibernate.bean.Tasks" table="tasks" lazy="false">
+        <id column="TaskID" name="TaskID" type="java.lang.Integer">
+        	<generator class="increment"/>
+        </id>
+        <property column="ProjectID" name="ProjectID" type="java.lang.Integer" />
+        <property column="TaskTitle" name="TaskTitle" type="java.lang.String" />
+        <property column="TaskDescription" name="TaskDescription" type="java.lang.String" />
+        <property column="StatusID" name="StatusID" type="java.lang.Integer" />
+        <property column="PriorityID" name="PriorityID" type="java.lang.Integer" />
+        <property column="DateCreated" name="DateCreated" type="java.lang.String" />
+        <property column="DateModified" name="DateModified" type="java.lang.String" />
+        <property column="Creator" name="Creator" type="java.lang.Integer" />
+        <property column="Implementer" name="Implementer" type="java.lang.Integer" />
+        <property column="Tester" name="Tester" type="java.lang.Integer" />
+        <property column="Designer" name="Designer" type="java.lang.Integer" />
+    </class>
+</hibernate-mapping>
